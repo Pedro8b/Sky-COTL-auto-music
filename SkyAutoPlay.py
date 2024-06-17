@@ -3,7 +3,7 @@ import keyboard
 from threading import Thread
 import music21
 
-file='Asleep.mid'
+file='YOUR MIDI FILE HERE.mid'
 
 mid = mido.MidiFile(file)
 score = music21.converter.parse(file)
